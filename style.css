@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  }
+
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 25px;
+background-color: #f1f5f9;
+color: #1e293b;
+}
+
+h1 {
+text-align: center;
+}
+
+.subtitle {
+text-align: center;
+color: #64748b;
+margin-bottom: 30px;
+}
+
+.cards {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+max-width: 1000px;
+margin: auto;
+}
+
+.card {
+width: 100%;
+max-width: 300px;
+min-height: 280px;
+padding: 25px;
+border: 2px solid;
+border-radius: 15px;
+text-align: center;
+background-color: white;
+}
+
+.basic {
+background-color: #dbeafe;
+border-color: #2563eb;
+}
+
+.standard {
+background-color: #dcfce7;
+border-color: #16a34a;
+}
+
+.premium {
+background-color: #f3e8ff;
+border-color: #9333ea;
+}
+
+.price {
+font-size: 22px;
+font-weight: bold;
+}
+
+button {
+display: inline-block;
+padding: 12px 18px;
+border: none;
+border-radius: 8px;
+background-color: #1e293b;
+color: white;
+cursor: pointer;
+}
+
+.display-demo {
+max-width: 900px;
+margin: 40px auto;
+padding: 20px;
+background-color: white;
+border: 1px solid #cbd5e1;
+border-radius: 12px;
+}
+
+.block-example {
+display: block;
+width: 200px;
+padding: 10px;
+margin-bottom: 8px;
+background-color: #bfdbfe;
+}
+
+.inline-example {
+display: inline;
+background-color: #fde68a;
+border: 1px solid #d97706;
+}
+
+.inline-block-example {
+display: inline-block;
+width: 160px;
+height: 60px;
+padding: 15px;
+margin: 5px;
+background-color: #bbf7d0;
+border: 1px solid #16a34a;
+border-radius: 6px;
+}
